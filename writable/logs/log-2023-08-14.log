@@ -1,0 +1,65 @@
+CRITICAL - 2023-08-14 11:29:55 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-14 12:01:47 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:02:49 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:02:50 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:03:25 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:03:26 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:04:49 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:04:51 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:04:51 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:05:14 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 12:07:42 --> App\Controllers\Item::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Item.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

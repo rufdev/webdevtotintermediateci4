@@ -1,0 +1,45 @@
+CRITICAL - 2023-08-15 10:24:12 --> Invalid file: "item/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('item/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('item/add', [], true)
+ 3 APPPATH\Controllers\Item.php(18): view('item/add')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 10:24:44 --> Undefined variable $items
+in APPPATH\Views\item\add.php on line 16.
+ 1 APPPATH\Views\item\add.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp4\\htdocs\\ci\\app\\Views\\item\\add.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp4\\htdocs\\ci\\app\\Views\\item\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('item/add', [], true)
+ 5 APPPATH\Controllers\Item.php(18): view('item/add')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 11:49:08 --> Call to undefined method App\Controllers\Item::validator()
+in APPPATH\Controllers\Item.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->add()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 11:49:46 --> Call to undefined method App\Controllers\Item::validator()
+in APPPATH\Controllers\Item.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->add()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 11:50:00 --> Call to undefined method App\Controllers\Item::validator()
+in APPPATH\Controllers\Item.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->add()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 11:55:49 --> Undefined property: CodeIgniter\Validation\Validation::$listErrors
+in APPPATH\Controllers\Item.php on line 29.
+ 1 APPPATH\Controllers\Item.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Validation\\Validation::$listErrors', 'C:\\xampp4\\htdocs\\ci\\app\\Controllers\\Item.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Item->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
